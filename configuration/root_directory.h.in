@@ -1,0 +1,27 @@
+// root_directory.h.in
+#ifndef ROOT_DIRECTORY_H
+#define ROOT_DIRECTORY_H
+
+//extern char * project_root = "${CMAKE_CURRENT_SOURCE_DIR}/";
+//extern std::string localdata_root = "${CMAKE_CURRENT_SOURCE_DIR}/.local_data/";
+//extern std::string commondata_root = "${CMAKE_CURRENT_SOURCE_DIR}/../../../.common_data/";
+//extern std::string shader_root = "${CMAKE_CURRENT_SOURCE_DIR}/shader/";
+
+inline std::string get_localResources(const std::string file){
+    std::string localResources = "${CMAKE_CURRENT_SOURCE_DIR}/.localResources/";
+return (localResources + file);
+}
+inline std::string get_commonResources(const std::string file){
+    std::string commonResources = "${CMAKE_CURRENT_SOURCE_DIR}/../../../.commonResources/";
+return (commonResources + file);
+}
+inline std::string get_shader(const std::string file){
+    std::string shader = "${CMAKE_CURRENT_SOURCE_DIR}/shader/";
+return (shader + file);
+}
+inline std::string get_OGLDEVshader(const std::string file){
+    std::string shader = "${CMAKE_CURRENT_SOURCE_DIR}/../../../.commonSDK/.Tutorial/OGLDEV/Shaders/";
+return (shader + file);
+}
+// ROOT_DIRECTORY_H
+#endif

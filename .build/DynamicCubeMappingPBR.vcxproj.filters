@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\source\DynamicCubemappingPBR_dynamicLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\.localSDK\custom\custom\learnopengl\MyTimer.h">
+      <Filter>MyLibrary\LearnOPGLCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\.localSDK\custom\custom\learnopengl\mycamera.h">
+      <Filter>MyLibrary\LearnOPGLCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\.localSDK\custom\custom\learnopengl\mycursor.h">
+      <Filter>MyLibrary\LearnOPGLCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\.localSDK\custom\custom\learnopengl\mymesh.h">
+      <Filter>MyLibrary\LearnOPGLCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\.localSDK\custom\custom\learnopengl\mymodel.h">
+      <Filter>MyLibrary\LearnOPGLCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\.localSDK\custom\custom\learnopengl\myshader.h">
+      <Filter>MyLibrary\LearnOPGLCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\.localSDK\mydevelop\mydevelop\mytools2.h">
+      <Filter>MyLibrary\MyDevelop</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\.localSDK\mydevelop\mydevelop\solartool2.h">
+      <Filter>MyLibrary\MyDevelop</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\.localSDK\mydevelop\mydevelop\text.h">
+      <Filter>MyLibrary\MyDevelop</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_axes.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_axes.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_background.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_background.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_background_tes.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_background_tes.geom">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_background_tes.tesc">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_background_tes.tese">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_background_tes.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_brdf.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_brdf.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_cubemap.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_cubemap.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_iblcubemap.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_iblcubemap.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_irradiance_convolution.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_pbr.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_pbr.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_prefilter.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_refract.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="E:\MyDevelopment\02_OpenGL\01_DynamicCubeMapping\DynamicCubeMappingPBR\shader\01_refract.vert">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MyLibrary">
+      <UniqueIdentifier>{25155732-5163-350A-B95F-D0DB51A79F36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLibrary\LearnOPGLCustom">
+      <UniqueIdentifier>{136B9E22-6E36-329A-9466-4187045D804F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLibrary\MyDevelop">
+      <UniqueIdentifier>{508EF632-3AB8-3A3A-9537-738F45838795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{A78D1F8B-A86C-32C4-A5B9-FCA1E36F6517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A1CDE2C5-788B-3A36-B7D0-A28BC13DD062}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
